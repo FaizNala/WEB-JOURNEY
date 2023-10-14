@@ -1,0 +1,55 @@
+ /* Universal Selector */
+
+ * {
+    font-family: Arial;
+ }
+
+ /* type selector */
+
+ h1{
+   color :chocolate;
+ }
+
+ h2{
+   color :darkblue
+ }
+
+ /* class selector */
+
+li.sarapan{
+   color: darkgoldenrod;
+}
+
+/* id selector */
+#makan_siang_senin{
+   color: darkgreen;
+}
+
+/*  child selector  */
+p>b {
+   color: darkorange;
+}
+
+li>b {
+   color : darkslateblue
+}
+
+/* decendant selector */
+p b {
+   color : blue;
+}
+/* cari semua b di dalam p */
+
+
+/* adjacent sibling selector */
+p + h2 {
+   color: deeppink;
+}
+/* cari p setelah h2 */
+
+
+/* general sibling selector */
+h2~p {
+   font-family: 'Times New Roman';
+}
+/* cari p setelah h2 */
